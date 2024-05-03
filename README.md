@@ -2,18 +2,43 @@
 # Linux in Arm
   - This project aims at enabling users to install various distros linux in their arm based device.
 
-# Installation
+# features🚀
+~> uses proot to install the linux distros soo the downloaded software is safe 
+~> various distros are added or will be added ( i am looking support distros not avaliable in proot)
+~> what more do you want me to say than "YOU HAVE LINUX ON YOUR PHONE!!"
+
+# Installation⬇️
   - Non-termux users
-    > to start install git and wget in you device using
+    > To start install git and wget in you device using
        ```
        apt install git
        apt install wget
        ```
-    > now git clone this repo using this command
+    > Tow git clone this repo using this command
       ```
       git clone https://github.com/GREENFLAME1507/Linux-in-arm.git
       ```
-    > then cd to the cloned dir using
+    > Then cd to the cloned dir using
        ```
-       cd 
+       cd Linux-in-arm
        ```
+    > Now type these commands
+      ```
+      ls
+      chmod +x lna.sh
+      ./lna.sh 
+      ```
+    > That is it .Follow the instructions in the script and you are good to go
+    
+# additional features and info ℹ️
+ >kali
+   [![Watch the video](https://www.youtube.com/watch?v=xeGQVQyUIoM&t=6s)
+
+  - This amazing video by 'loi liang yang' show you how to add various features and also acts as an install guide !
+
+ >Ubuntu
+>[![Watch the video](https://www.youtube.com/watch?v=v_mhLmeDi6I)
+
+  - This amazing video by 'Techinical bot' show you how to add various features and also acts as an install guide !
+
+    
