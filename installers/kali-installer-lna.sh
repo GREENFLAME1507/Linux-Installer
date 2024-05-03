@@ -52,7 +52,9 @@ kalilogo="${BLUE}
 echo "$kalilogo"
 echo "${BLUE}Starting kali install......"
 echo "_______________________________________________________________________________________________________________________________________________________________________________________________"
+clear
 echo "${RED}In the following prompt press allow!!"
+read -n 1 -r -s -p $'Press enter to continue...\n'
 termux-setup-storage
 clear
 echo "installing wget"
