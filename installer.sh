@@ -40,6 +40,7 @@ case $choice in
       ${YELLOW} echo "executing chosen options"
        cd installers
        chmod +x ubuntu-installer-lna.sh
+       rm ubuntu-installer-lna.sh
       ./ubuntu-installer-lna.sh
         ;;
     3)
