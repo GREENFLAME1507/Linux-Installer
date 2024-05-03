@@ -50,17 +50,17 @@ kalilogo="${BLUE}
                                                                                   .-      
                                                                                           "
 echo "$kalilogo"
-echo "${BLUE}Starting kali install......"
+echo "${BLUE}Starting kali install......${NC}"
 echo "_______________________________________________________________________________________________________________________________________________________________________________________________"
 clear
-echo "${RED}In the following prompt press allow!!"
+echo "${RED}In the following prompt press allow!!${NC}"
 read -n 1 -r -s -p $'Press enter to continue...\n'
 termux-setup-storage
 clear
 echo "installing wget"
 pkg install wget
 clear
-echo "${WHITE}Pulling files <~"
+echo "${WHITE}Pulling files <~${NC}"
 wget -O install-nethunter-termux https://offs.ec/2MceZWr
 clear
 echo"enabling and accessing..."
@@ -85,8 +85,8 @@ nethunter="${BLUE}
  ##  ##   ##        ##      ##  ##  ##   ##   ##  ##    ##      ##       ## ##   
  ##  ##   ##  ##    ##      ##  ##  ##   ##   ##  ##    ##      ##  ##   ##  ##  
 ###  ##  ### ###   ####    ###  ##   ## ##   ###  ##   ####    ### ###  #### ##  "
-echo "$nethunter"
-echo "~Type nethunter to start kali~"
+echo "$nethunter"${NC}
+echo "~Type ${BLUE}nethunter${NC} to start kali~"
 read -n 1 -r -s -p $'Press enter to continue...\n'
 
 exit
