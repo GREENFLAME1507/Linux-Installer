@@ -1,9 +1,18 @@
 #!/bin/bash
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+WHITE='\033[0;37m'
+NC='\033[0m'
+
 echo "dealing with pre-install stuff.."
 apt update
 apt upgrade -y
 clear
-kalilogo="                                                                                         
+kalilogo="${BLUE}                                                                                         
    .........:::::::::...                                                                  
                      .:::----====--:.                                                     
                                  .::=++*=-:.                                              
@@ -41,15 +50,15 @@ kalilogo="
                                                                                   .-      
                                                                                           "
 echo "$kalilogo"
-echo "Starting kali install......"
+echo "${BLUE}Starting kali install......"
 echo "_______________________________________________________________________________________________________________________________________________________________________________________________"
-echo "In the following prompt press allow!!"
+echo "${RED}In the following prompt press allow!!"
 termux-setup-storage
 clear
 echo "installing wget"
 pkg install wget
 clear
-echo "Pulling files <~"
+echo "${WHITE}Pulling files <~"
 wget -O install-nethunter-termux https://offs.ec/2MceZWr
 clear
 echo"enabling and accessing..."
@@ -66,7 +75,7 @@ echo "just press enter"
 read -n 1 -r -s -p $'Press enter to continue...\n'
 ./install-nethunter-termux
 clear
-nethunter="
+nethunter="${BLUE}
 ###  ##  ### ###  #### ##  ###  ##  ##  ###  ###  ##  #### ##  ### ###  ### ##   
   ## ##   ##  ##  # ## ##   ##  ##  ##   ##    ## ##  # ## ##   ##  ##   ##  ##  
  # ## #   ##        ##      ##  ##  ##   ##   # ## #    ##      ##       ##  ##  
