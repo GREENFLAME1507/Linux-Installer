@@ -56,10 +56,10 @@ apt update
 apt upgrade -y
 clear
 echo "$logo"
-echo "${YELLOW}Starting ubuntu install......."
+echo "${YELLOW}Starting ubuntu install.......${NC}"
 echo "_______________________________________________________________________________________________________________________________________________________________________________________________"
 clear
-echo "${RED}In the following prompt press allow!!"
+echo "${RED}In the following prompt press allow!!${NC}"
 read -n 1 -r -s -p $'Press enter to continue...\n'
 termux-setup-storage
 clear
@@ -91,7 +91,7 @@ echo "${YELLOW}
 ##   ##   ##  ##  ##   ##   ##  ##    ##     ##   ##  
  ## ##   ### ##    ## ##   ###  ##   ####     ## ##   
                                                       "
-echo "To login type '${YELLOW}proot-distro login ubuntu'"
+echo "To login type '${YELLOW}proot-distro login ubuntu'${NC}"
 read -n 1 -r -s -p $'Press enter to continue...\n'
 
 exit
