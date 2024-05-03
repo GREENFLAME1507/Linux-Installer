@@ -32,12 +32,12 @@
     
 # additional features and info ℹ️
  >kali
-   [![Watch the video](https://www.youtube.com/watch?v=xeGQVQyUIoM&t=6s)
+   https://www.youtube.com/watch?v=xeGQVQyUIoM&t=6s
 
   - This amazing video by 'loi liang yang' show you how to add various features and also acts as an install guide !
 
  >Ubuntu
->[![Watch the video](https://www.youtube.com/watch?v=v_mhLmeDi6I)
+https://www.youtube.com/watch?v=v_mhLmeDi6I
 
   - This amazing video by 'Techinical bot' show you how to add various features and also acts as an install guide !
 
