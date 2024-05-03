@@ -58,10 +58,11 @@ clear
 echo "$logo"
 echo "${YELLOW}Starting ubuntu install......."
 echo "_______________________________________________________________________________________________________________________________________________________________________________________________"
+clear
 echo "${RED}In the following prompt press allow!!"
+read -n 1 -r -s -p $'Press enter to continue...\n'
 termux-setup-storage
 clear
-read -n 1 -r -s -p $'Press enter to continue...\n'
 ${CYAN}
 echo "installing wget"
 pkg install wget
